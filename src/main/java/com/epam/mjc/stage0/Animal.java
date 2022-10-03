@@ -12,7 +12,7 @@ public class Animal {
     }
     String getDescription()
     {
-        String description = "This animal is mostly " + color + ". It has " + numberOfPaws + " paws and " + (hasFur?"a":"no") + " fur.\n";
+        String description = "This animal is mostly " + color + ". It has " + numberOfPaws + " paws and " + (hasFur?"a":"no") + " fur.";
         return description;
     }
 }
