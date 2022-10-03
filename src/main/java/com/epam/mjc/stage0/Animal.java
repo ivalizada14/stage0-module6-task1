@@ -10,7 +10,7 @@ public class Animal {
         this.numberOfPaws = numberOfPaws;
         this.hasFur = hasFur;
     }
-    String getDescription()
+    public String getDescription()
     {
         String description = "This animal is mostly " + color + ". It has " + numberOfPaws +
                 (numberOfPaws==1?" paw":" paws") + " and " + (hasFur?"a":"no") + " fur.";
@@ -18,7 +18,7 @@ public class Animal {
     }
     public static void main(String[]args)
     {
-        Animal a1 = new Animal("white", 1, false);
+        Animal a1 = new Animal("red", 3, true);
         Dog d1 = new Dog();
         Bird b1 = new Bird();
         System.out.println(a1.getDescription());
