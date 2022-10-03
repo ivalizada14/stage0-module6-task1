@@ -9,7 +9,7 @@ public class Bird extends Animal{
     public String getDescription()
     {
         String description = super.getDescription();
-        description += "Moreover, it has 2 wings and can fly.";
+        description += " Moreover, it has 2 wings and can fly.";
         return description;
     }
 }
