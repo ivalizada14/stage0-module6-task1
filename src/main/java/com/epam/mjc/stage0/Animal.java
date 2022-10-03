@@ -16,4 +16,13 @@ public class Animal {
                 (numberOfPaws==1?" paw":" paws") + " and " + (hasFur?"a":"no") + " fur.";
         return description;
     }
+    public static void main(String[]args)
+    {
+        Animal a1 = new Animal("white", 1, false);
+        Dog d1 = new Dog();
+        Bird b1 = new Bird();
+        System.out.println(a1.getDescription());
+        System.out.println(b1.getDescription());
+        System.out.println(d1.getDescription());
+    }
 }
